@@ -2,10 +2,10 @@
 
 /**
  * print_times_table - prints time table
- * @n : use in time table
- * Return: void
+ * @n : use in times table
+ * Return:void
  */
-void (100-times_table(int n))
+void print_times_table(int n)
 {
 	int a = 0, rep, b;
 
