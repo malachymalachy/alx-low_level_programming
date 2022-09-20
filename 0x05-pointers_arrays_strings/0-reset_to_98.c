@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - updating the value of a pointer
+ * main - void reset_to_98 
  *
  * Return: Always 0.
  */
@@ -12,7 +12,5 @@ void reset_to_98(int *n)
 
 	*n = 98;
 	p = &n;
-	printf("Address of 'n': %p\n", &n);
-	printf("Value of 'p': %p\n", p);
 	return (0);
 }
