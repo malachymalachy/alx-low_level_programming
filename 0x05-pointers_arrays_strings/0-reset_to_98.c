@@ -1,18 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - void reset_to_98
- *
- * Return: Always 0.
+ * reset_to_98 - resets the value at the address of a pointer to 98
+ * @n: the pointer to be altered.
  */
+
 void reset_to_98(int *n)
 {
-	int *n;
-	int *p;
 
-	*n = 98;
-	p = &*n;
-	printf("Address of 'n': %p\n", &n);
-	printf("Value of 'p': %p\n", p);
-	return (0);
-}
+	*n = 98; }
